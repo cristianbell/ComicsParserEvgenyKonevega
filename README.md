@@ -6,7 +6,7 @@ Start server with
 
 ### `yarn start`
 
-Than start client with
+Then start client with
 
 ### `cd ../client`
 
