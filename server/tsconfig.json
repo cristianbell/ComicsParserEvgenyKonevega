@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "types": [
+      "jest",
+      "node"
+    ],
+    "sourceMap": true,
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "baseUrl": "./src",
+    "removeComments": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+  "include": [
+    "server/src/**/*.ts",
+    "./global.d.ts",
+    "config/**/*.ts"
+  ],
+  "exclude": [
+    "../node_modules"
+  ]
+}

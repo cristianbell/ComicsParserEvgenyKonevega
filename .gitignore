@@ -1,0 +1,10 @@
+node_modules/
+
+.env
+
+coverage
+
+/server/dist/**/*
+/server/public/**/*
+/server/logs/**/*
+*.log
